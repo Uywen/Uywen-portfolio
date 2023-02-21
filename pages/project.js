@@ -1,6 +1,7 @@
 import Link from 'next/Link'
 
-export default() => (
+export default function project(){
+    return(
     <div>
         {
             
@@ -23,3 +24,4 @@ export default() => (
         }`}</style>
     </div>
 )
+}
