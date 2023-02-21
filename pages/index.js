@@ -1,10 +1,8 @@
 import HeaderComponent from "./header"
 
-export default () => (
+export default function Home() {
+    return(
     <div>
-           <div>
-            <img src="/Me.jpg" alt="my-image" />
-            </div>
             <br></br>
             <HeaderComponent></HeaderComponent>
             <br></br>
@@ -59,3 +57,4 @@ export default () => (
         }`}</style>
     </div>
 )
+}
