@@ -1,4 +1,4 @@
-export default function home() {
+export default function contact() {
     return(
     <div>
         <h1>Contact Information</h1>
