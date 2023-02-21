@@ -1,4 +1,5 @@
-export default() =>(
+export default function home() {
+    return(
     <div>
         <h1>Contact Information</h1>
             <p>Email: Uywenafrica@gmail.com
@@ -24,3 +25,4 @@ export default() =>(
         }`}</style>
     </div>
 )
+}
